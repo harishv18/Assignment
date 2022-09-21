@@ -1,0 +1,14 @@
+// Write a JavaScript program to convert temperatures to and from Celsius,
+// Fahrenheit.
+
+let Celsius = 40
+
+let fahrenheit = 45
+
+
+let CelsiusToFahrenheit = Celsius * 9/5 + 32
+
+let FahrenheitToCelsius = (fahrenheit - 32) / 1.8
+
+console.log(CelsiusToFahrenheit  +" F");
+console.log(FahrenheitToCelsius  + " C");
