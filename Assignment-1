@@ -1,0 +1,12 @@
+//Write a program to find whether a given year is a leap year or not.
+
+let year = 2022
+if(year%4==0 && year%100!=0){
+  console.log("leap year");
+}
+else if(year%400==0){
+  console.log("leap year")
+}
+else{
+  console.log("not a leap year");
+}
